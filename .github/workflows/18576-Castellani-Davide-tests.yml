@@ -72,6 +72,9 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
+    - name: Download submodules
+      run: |
+        git pull --recurse-submodules
     - name: Install dependencies
       run: |
         cd agent
