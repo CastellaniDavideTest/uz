@@ -2,7 +2,7 @@
 # Test all for Castellani Davide
 name: Test all for Castellani Davide
 
-on: [push, workflow_dispatch]
+on: workflow_dispatch
 
 jobs:
   update-readme:
@@ -60,5 +60,5 @@ jobs:
         git config --global user.email 'help@castellanidavide.it'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
         git checkout "${GITHUB_REF:11}"
-        git commit -am "Update README.md"
-        git push
+        git commit -am "Update"
+        git push --force
