@@ -1,0 +1,60 @@
+[submodule "agent"]
+        path = agent
+        url = https://github.com/CastellaniDavide/agent.git
+[submodule "agentless"]
+        path = agentless
+        url = https://github.com/CastellaniDavide/agentless.git
+[submodule "bc"]
+        path = bc
+        url = https://github.com/CastellaniDavide/bc.git
+[submodule "bellini-template"]
+        path = bellini-template
+        url = https://github.com/CastellaniDavide/bellini-template.git
+[submodule "calcolatrice"]
+        path = calcolatrice
+        url = https://github.com/CastellaniDavide/calcolatrice.git
+[submodule "eventsview"]
+        path = eventsview
+        url = https://github.com/CastellaniDavide/eventsview.git
+[submodule "ldisk"]
+        path = ldisk
+        url = https://github.com/CastellaniDavide/ldisk.git
+[submodule "macaddresssep"]
+        path = macaddresssep
+        url = https://github.com/CastellaniDavide/macaddresssep.git
+[submodule "macchanger"]
+        path = macchanger
+        url = https://github.com/CastellaniDavide/macchanger.git
+[submodule "netchange"]
+        path = netchange
+        url = https://github.com/CastellaniDavide/netchange.git
+[submodule "netinfo"]
+        path = netinfo
+        url = https://github.com/CastellaniDavide/netinfo.git
+[submodule "osversion"]
+        path = osversion
+        url = https://github.com/CastellaniDavide/osversion.git
+[submodule "product"]
+        path = product
+        url = https://github.com/CastellaniDavide/product.git
+[submodule "produttore_e_consumatore"]
+        path = produttore_e_consumatore
+        url = https://github.com/CastellaniDavide/produttore_e_consumatore.git
+[submodule "pseudo"]
+        path = pseudo
+        url = https://github.com/CastellaniDavide/pseudo.git
+[submodule "settings"]
+        path = settings
+        url = https://github.com/CastellaniDavide/settings.git
+[submodule "sync"]
+        path = sync
+        url = https://github.com/CastellaniDavide/sync.git
+[submodule "tabular_log"]
+        path = tabular_log
+        url = https://github.com/CastellaniDavide/tabular_log.git
+[submodule "usb"]
+        path = usb
+        url = https://github.com/CastellaniDavide/usb.git
+[submodule "vtools"]
+        path = vtools
+        url = https://github.com/CastellaniDavide/vtools.git
