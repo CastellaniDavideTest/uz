@@ -1,6 +1,60 @@
-[submodule "ux"]
-	path = ux
-	url = https://github.com/CastellaniDavideTest/ux.git
-[submodule "uc"]
-	path = ux
-	url = https://github.com/CastellaniDavideTest/uc.git
+[submodule "agent"]
+        path = agent
+        url = https://github.com/CastellaniDavideTest/agent.git
+[submodule "agentless"]
+        path = agentless
+        url = https://github.com/CastellaniDavideTest/agentless.git
+[submodule "bc"]
+        path = bc
+        url = https://github.com/CastellaniDavideTest/bc.git
+[submodule "bellini-template"]
+        path = bellini-template
+        url = https://github.com/CastellaniDavideTest/bellini-template.git
+[submodule "calcolatrice"]
+        path = calcolatrice
+        url = https://github.com/CastellaniDavideTest/calcolatrice.git
+[submodule "eventsview"]
+        path = eventsview
+        url = https://github.com/CastellaniDavideTest/eventsview.git
+[submodule "ldisk"]
+        path = ldisk
+        url = https://github.com/CastellaniDavideTest/ldisk.git
+[submodule "macaddresssep"]
+        path = macaddresssep
+        url = https://github.com/CastellaniDavideTest/macaddresssep.git
+[submodule "macchanger"]
+        path = macchanger
+        url = https://github.com/CastellaniDavideTest/macchanger.git
+[submodule "netchange"]
+        path = netchange
+        url = https://github.com/CastellaniDavideTest/netchange.git
+[submodule "netinfo"]
+        path = netinfo
+        url = https://github.com/CastellaniDavideTest/netinfo.git
+[submodule "osversion"]
+        path = osversion
+        url = https://github.com/CastellaniDavideTest/osversion.git
+[submodule "product"]
+        path = product
+        url = https://github.com/CastellaniDavideTest/product.git
+[submodule "produttore_e_consumatore"]
+        path = produttore_e_consumatore
+        url = https://github.com/CastellaniDavideTest/produttore_e_consumatore.git
+[submodule "pseudo"]
+        path = pseudo
+        url = https://github.com/CastellaniDavideTest/pseudo.git
+[submodule "settings"]
+        path = settings
+        url = https://github.com/CastellaniDavideTest/settings.git
+[submodule "sync"]
+        path = sync
+        url = https://github.com/CastellaniDavideTest/sync.git
+[submodule "tabular_log"]
+        path = tabular_log
+        url = https://github.com/CastellaniDavideTest/tabular_log.git
+[submodule "usb"]
+        path = usb
+        url = https://github.com/CastellaniDavideTest/usb.git
+[submodule "vtools"]
+        path = vtools
+        url = https://github.com/CastellaniDavideTest/vtools.git

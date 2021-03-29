@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\agent",
+    "\\agent\\settings",
+    "\\calcolatrice\\bin"
   ],
+  "SelectedNode": "\\agent\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
