@@ -58,3 +58,6 @@
 [submodule "vtools"]
         path = vtools
         url = https://github.com/CastellaniDavide/vtools.git
+[submodule "agent2"]
+	path = agent2
+	url = https://github.com/CastellaniDavide/agent.git
