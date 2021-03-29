@@ -1,3 +1,6 @@
 [submodule "ux"]
 	path = ux
 	url = https://github.com/CastellaniDavideTest/ux.git
+[submodule "uc"]
+	path = ux
+	url = https://github.com/CastellaniDavideTest/uc.git
