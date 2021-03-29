@@ -11,12 +11,10 @@
  - [netinfo](https://github.com/CastellaniDavide/netinfo): 
  - [osversion](https://github.com/CastellaniDavide/osversion): 
  - [product](https://github.com/CastellaniDavide/product):  Get win32_Product infos.
- - [produttore_e_consumatore](https://github.com/CastellaniDavide/produttore_e_consumatore): 
  - [pseudo](https://github.com/CastellaniDavide/pseudo):  Pseudo is a program that, from files csv or xml in input, split the informations to sensible and not sensible.We have the file pseudo.conf that contains all the informations for the configuration.In there we find the fields that we want to "delete" (make pseudo-anonymous) and put these informations into the "secret.csv" file and all the rest that don't need to be hide go in the file "public.csv". If you run the program from the cmd or a shell you will see the progress bar of the different part of the program. :smile: 
  - [settings](https://github.com/CastellaniDavide/settings):  Manage (read/ write) settings file in different formats (eg. JAML, JSON, ...)
  - [sync](https://github.com/CastellaniDavide/sync):  Sync losts of projects. ![](./sync.svg)
  - [tabular_log](https://github.com/CastellaniDavide/tabular_log):  Creates and manage a tabular log.
- - [uc](https://github.com/CastellaniDavide/uc): 
  - [usb](https://github.com/CastellaniDavide/usb):  Get and filter USB infos.You can see the project website here [https://castellanidavide.github.io/usb/](https://castellanidavide.github.io/usb/) ![Funcionality image](https://raw.githubusercontent.com/CastellaniDavide/usb/main/docs/funcionality.png)
  - [vtools](https://github.com/CastellaniDavide/vtools):  Manage vitual machines, getting some informations (eg. OS).
 
