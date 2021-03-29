@@ -75,9 +75,10 @@ jobs:
     - name: Install dependencies
       run: |
         cd agent
-        python -m pip install --upgrade pip
+        python -m pip install --upgrade pip tree
         pip install flake8 pytest
         pip install -r requirements/requirements.txt
+        tree
     - name: Lint with flake8
       run: |
         cd agent
