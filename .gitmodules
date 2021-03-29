@@ -7,9 +7,6 @@
 [submodule "bc"]
         path = bc
         url = https://github.com/CastellaniDavide/bc.git
-[submodule "bellini-template"]
-        path = bellini-template
-        url = https://github.com/CastellaniDavide/bellini-template.git
 [submodule "calcolatrice"]
         path = calcolatrice
         url = https://github.com/CastellaniDavide/calcolatrice.git
