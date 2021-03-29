@@ -65,39 +65,33 @@ jobs:
   agent:
 
     runs-on: windows-latest
-
     steps:
-    - uses: actions/checkout@v2
+    - name: Download
+      run: |
+        git clone --recurse-submodules https://github.com/CastellaniDavide/agent
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
-    - name: Download submodules
-      run: |
-        git submodule update --init
     - name: Install dependencies
       run: |
-        cd agent
         python -m pip install --upgrade pip tree
         pip install flake8 pytest
         pip install -r requirements/requirements.txt
         tree
     - name: Lint with flake8
       run: |
-        cd agent
         # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Auth
       run : |
-        cd agent
         sed -i 's/harper db name/${{ secrets.DB_URL }}/' ./settings/settings.yaml
         sed -i 's/your token/${{ secrets.DB_TOKEN }}/' ./settings/settings.yaml
         sed -i 's/table name/${{ secrets.DB_TABLE }}/' ./settings/settings.yaml
     - name: Test with pytest
       run: |
-        cd agent
         pytest
 
   bc:
