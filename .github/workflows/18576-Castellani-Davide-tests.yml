@@ -20,7 +20,7 @@ jobs:
         pip install requests
     - name: Update modules
       run: |
-        git submodule update --recursive
+        git pull --recurse-submodules
     - name: Create file
       run: |
         python3 << EOF
