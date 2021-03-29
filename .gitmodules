@@ -24,7 +24,7 @@
         url = https://github.com/CastellaniDavide/macaddresssep.git
 [submodule "macchanger"]
         path = macchanger
-        url = https://github.com/CastellaniDavide/macchanger.git
+        url = https://github.com/CastellaniDavide/maccharger.git
 [submodule "netchange"]
         path = netchange
         url = https://github.com/CastellaniDavide/netchange.git
