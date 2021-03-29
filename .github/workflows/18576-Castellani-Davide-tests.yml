@@ -30,13 +30,9 @@ jobs:
         def description(filename):
             try:
                 s = find_between(requests.get(f"https://raw.githubusercontent.com/CastellaniDavide/{filename}/main/docs/README.md").text, "Description", "#").replace("\r\n", " ").replace("\n", " ").replace("\t", "").replace("    ", "").replace("  ", "").replace("- ", "; ").replace(":;", ":").replace(": ;", ":")
-                while s[0] == " ": s = s[1:]
-                while s[-1] == "\n": s = s[:-1:]
                 return str(s)
             except:
                 s = find_between(requests.get(f"https://raw.githubusercontent.com/CastellaniDavide/{filename}/master/docs/README.md").text, "Description", "#").replace("\r\n", " ").replace("\n", " ").replace("\t", "").replace("    ", "").replace("  ", "").replace("- ", "; ").replace(":;", ":").replace(": ;", ":")
-                while s[0] == " ": s = s[1:]
-                while s[-1] == "\n": s = s[:-1:]
                 return str(s)
         def find_between( s, first, last ):
             try:
