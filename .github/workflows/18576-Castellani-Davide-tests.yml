@@ -2,7 +2,7 @@
 # Test all for Castellani Davide
 name: Test all for Castellani Davide
 
-on: [push, pull_request]
+on: [push, workflow_dispatch]
 
 jobs:
   update-readme:
