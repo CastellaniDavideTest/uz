@@ -2,7 +2,7 @@ name: Update README.md for Castellani Davide
 
 on:
   workflow_run:
-    workflows: ["Update all for Castellani Davide"]
+    workflows: ["Update all for Castellani Davide", "Add submodule for Castellani Davide", "Remove submodule for Castellani Davide"]
     types:
       - completed  
 
