@@ -11,11 +11,10 @@ jobs:
   remove:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: Remove submodule
       run: |
-       git clone --recurse-submodules git://github.com/$GITHUB_REPOSITORY
        rmdir ${{ github.event.inputs.logLevel }}
-       rm -R -i ${{ github.event.inputs.logLevel }}
        git submodule deinit ${{ github.event.inputs.logLevel }}
        sudo apt install tree
        tree
