@@ -3,7 +3,7 @@ name: Remove submodule for Castellani Davide
 on: 
   workflow_dispatch:
     inputs:
-      logLevel:
+      submodule:
         description: 'Sumodule name:'     
         required: true
 
@@ -14,9 +14,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Remove submodule
       run: |
-       git submodule deinit -f -- ${{ github.event.inputs.logLevel }}  
-       rm -rf ${{ github.event.inputs.logLevel }}
-       git rm -f ${{ github.event.inputs.logLevel }}
+       git submodule deinit -f -- ${{ github.event.inputs.submodule }}  
+       rm -rf ${{ github.event.inputs.submodule }}
+       git rm -f ${{ github.event.inputs.submodule }}
     - name: Upload file
       continue-on-error: true
       run: |
@@ -24,5 +24,5 @@ jobs:
         git config --global user.email 'help@castellanidavide.it'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
         git checkout "${GITHUB_REF:11}"
-        git commit -am "Removed ${{ github.event.inputs.logLevel }}"
+        git commit -am "Removed ${{ github.event.inputs.submodule }}"
         git push --force
