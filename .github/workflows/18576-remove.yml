@@ -8,14 +8,15 @@ on:
         required: true
 
 jobs:
-  update:
+  remove:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Remove submodule
       run: |
-       rmdir ./${{ github.event.inputs.logLevel }}
-       rmdir sanificatori
+       git submodule update --init
+       rmdir ${{ github.event.inputs.logLevel }}
+       rm -R -i ${{ github.event.inputs.logLevel }}
        git submodule deinit ${{ github.event.inputs.logLevel }}
        sudo apt install tree
        tree
