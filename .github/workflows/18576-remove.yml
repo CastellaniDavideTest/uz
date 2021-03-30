@@ -14,7 +14,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Remove submodule
       run: |
-       sudo rmdir ./${{ github.event.inputs.logLevel }}
+       rmdir ./${{ github.event.inputs.logLevel }}
+       rmdir sanificatori
        git submodule deinit ${{ github.event.inputs.logLevel }}
        sudo apt install tree
        tree
