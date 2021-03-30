@@ -16,6 +16,7 @@ jobs:
       run: |
        rm -rf ${{ github.event.inputs.logLevel }}
        git submodule deinit ${{ github.event.inputs.logLevel }}
+       ls
     - name: Upload file
       continue-on-error: true
       run: |
