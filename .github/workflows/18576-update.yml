@@ -1,14 +1,10 @@
-
-# Test all for Castellani Davide
-name: Test all for Castellani Davide
+name: Update all for Castellani Davide
 
 on: workflow_dispatch
 
 jobs:
-  update-readme:
-    
+  update:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
