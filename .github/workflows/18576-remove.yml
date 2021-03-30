@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Install new module
+    - name: Remove submodule
       run: |
        rm -rf ${{ github.event.inputs.logLevel }}
        git submodule deinit ${{ github.event.inputs.logLevel }}
@@ -23,5 +23,5 @@ jobs:
         git config --global user.email 'help@castellanidavide.it'
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
         git checkout "${GITHUB_REF:11}"
-        git commit -am "Update"
+        git commit -am "Removed ${{ github.event.inputs.logLevel }}"
         git push --force
