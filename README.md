@@ -21,9 +21,11 @@
 
 # How to download
 On your shell: ```git clone --recursive --single-branch --branch 18576 git@github.com:marconivr/2020-2022-T-CI.git``` 
+
 ATTENTION: you need have git-ssh key
 # How to update to the last version
 On your shell: ```git pull --recurse-submodules``` 
+
 ATTENTION: you need have git-ssh key
 ---
 Made by Castellani Davide 
