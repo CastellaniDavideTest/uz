@@ -55,6 +55,3 @@
 [submodule "agent2"]
 	path = agent2
 	url = git@github.com:CastellaniDavide/agent2.git
-[submodule "sanificatori"]
-	path = sanificatori
-	url = git@github.com:CastellaniDavide/sanificatori.git
